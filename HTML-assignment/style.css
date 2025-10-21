@@ -1,25 +1,24 @@
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; 
-  background-color: lightsalmon;
-  padding: 100px;
+body {
+  color: white;
+  background-color: black;
 }
 
-.parent div {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: 10px;
-    background-color: lightpink;
-    padding: 20px;
-    border-bottom:20px solid lightsalmon;
-    border-top:20px solid lightsalmon;
+.parent {
+  height: 1000px;
 }
 
 .child {
-    flex: 200px;
-    margin: 10px;
-    padding: 20px;
-    border: 5px;
-    text-align: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.child h1{
+  border: 7px solid white;
+  padding: 50px;
+}
+
+.child h1:nth-child(odd) {
+    background-color:darkgreen;
+}
