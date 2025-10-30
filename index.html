@@ -35,13 +35,23 @@
         
         <button onclick="console.log('Button clicked!')">click</button>
 
+       
+
     </div>
     <div class="triangle-up"></div>
     <div class="triangle-right"></div>
     
    
-    
+    <div style="display: flex; gap:4px; margin-top: 20px;margin-bottom: 40px;">
+        <button id="plus-button" onclick="increment()">+</button>
+        <div id="counter-value">0</div>
+        <button id ="minus-button" onclick="decrement()">-</button>
+    </div>
 
-    <script src="index.js"></script>
+    <div id="toggle-off" style="display: none;">toogle off</div>
+    <div id="toggle-on" style="display: block;">toggle on</div>
+    <button id="toggle" onclick="toggle()">toggle</button>
+
+    <script src="index1.js"></script>
 </body>
 </html>
