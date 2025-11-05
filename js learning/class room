@@ -1,0 +1,10 @@
+// factorial logic
+const n = 8;
+answer = 1;
+for(let i=1 ; i<=n ; i+=1 ){
+   
+    console.log("before change" , answer);
+     answer*= i
+     console.log("after change" , answer);
+
+}
